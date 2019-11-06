@@ -14,8 +14,8 @@ class TextbooksTest < ApplicationSystemTestCase
     visit textbooks_url
     click_on "New Textbook"
 
-    fill_in "Index", with: @textbook.index
-    fill_in "Show", with: @textbook.show
+    fill_in "Author", with: @textbook.author
+    fill_in "Name", with: @textbook.name
     click_on "Create Textbook"
 
     assert_text "Textbook was successfully created"
@@ -26,8 +26,8 @@ class TextbooksTest < ApplicationSystemTestCase
     visit textbooks_url
     click_on "Edit", match: :first
 
-    fill_in "Index", with: @textbook.index
-    fill_in "Show", with: @textbook.show
+    fill_in "Author", with: @textbook.author
+    fill_in "Name", with: @textbook.name
     click_on "Update Textbook"
 
     assert_text "Textbook was successfully updated"

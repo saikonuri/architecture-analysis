@@ -17,7 +17,7 @@ class TextbooksControllerTest < ActionDispatch::IntegrationTest
 
   test "should create textbook" do
     assert_difference('Textbook.count') do
-      post textbooks_url, params: { textbook: { index: @textbook.index, show: @textbook.show } }
+      post textbooks_url, params: { textbook: { author: @textbook.author, name: @textbook.name } }
     end
 
     assert_redirected_to textbook_url(Textbook.last)
@@ -34,7 +34,7 @@ class TextbooksControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update textbook" do
-    patch textbook_url(@textbook), params: { textbook: { index: @textbook.index, show: @textbook.show } }
+    patch textbook_url(@textbook), params: { textbook: { author: @textbook.author, name: @textbook.name } }
     assert_redirected_to textbook_url(@textbook)
   end
 

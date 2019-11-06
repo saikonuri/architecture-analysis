@@ -14,8 +14,8 @@ class UniversitiesTest < ApplicationSystemTestCase
     visit universities_url
     click_on "New University"
 
-    fill_in "Index", with: @university.index
-    fill_in "Show", with: @university.show
+    fill_in "Location", with: @university.location
+    fill_in "Name", with: @university.name
     click_on "Create University"
 
     assert_text "University was successfully created"
@@ -26,8 +26,8 @@ class UniversitiesTest < ApplicationSystemTestCase
     visit universities_url
     click_on "Edit", match: :first
 
-    fill_in "Index", with: @university.index
-    fill_in "Show", with: @university.show
+    fill_in "Location", with: @university.location
+    fill_in "Name", with: @university.name
     click_on "Update University"
 
     assert_text "University was successfully updated"

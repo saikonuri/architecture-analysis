@@ -1,2 +1,2 @@
-json.extract! course, :id, :index, :show, :created_at, :updated_at
+json.extract! course, :id, :name, :mnemonic, :created_at, :updated_at
 json.url course_url(course, format: :json)

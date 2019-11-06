@@ -17,7 +17,7 @@ class UniversitiesControllerTest < ActionDispatch::IntegrationTest
 
   test "should create university" do
     assert_difference('University.count') do
-      post universities_url, params: { university: { index: @university.index, show: @university.show } }
+      post universities_url, params: { university: { location: @university.location, name: @university.name } }
     end
 
     assert_redirected_to university_url(University.last)
@@ -34,7 +34,7 @@ class UniversitiesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update university" do
-    patch university_url(@university), params: { university: { index: @university.index, show: @university.show } }
+    patch university_url(@university), params: { university: { location: @university.location, name: @university.name } }
     assert_redirected_to university_url(@university)
   end
 

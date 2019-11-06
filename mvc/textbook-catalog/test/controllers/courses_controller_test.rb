@@ -17,7 +17,7 @@ class CoursesControllerTest < ActionDispatch::IntegrationTest
 
   test "should create course" do
     assert_difference('Course.count') do
-      post courses_url, params: { course: { index: @course.index, show: @course.show } }
+      post courses_url, params: { course: { mnemonic: @course.mnemonic, name: @course.name } }
     end
 
     assert_redirected_to course_url(Course.last)
@@ -34,7 +34,7 @@ class CoursesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update course" do
-    patch course_url(@course), params: { course: { index: @course.index, show: @course.show } }
+    patch course_url(@course), params: { course: { mnemonic: @course.mnemonic, name: @course.name } }
     assert_redirected_to course_url(@course)
   end
 

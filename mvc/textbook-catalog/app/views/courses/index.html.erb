@@ -5,8 +5,8 @@
 <table>
   <thead>
     <tr>
-      <th>Index</th>
-      <th>Show</th>
+      <th>Name</th>
+      <th>Mnemonic</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -14,8 +14,8 @@
   <tbody>
     <% @courses.each do |course| %>
       <tr>
-        <td><%= course.index %></td>
-        <td><%= course.show %></td>
+        <td><%= course.name %></td>
+        <td><%= course.mnemonic %></td>
         <td><%= link_to 'Show', course %></td>
         <td><%= link_to 'Edit', edit_course_path(course) %></td>
         <td><%= link_to 'Destroy', course, method: :delete, data: { confirm: 'Are you sure?' } %></td>

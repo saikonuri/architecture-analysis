@@ -1,4 +1,4 @@
 class Department < ApplicationRecord
-  belongs_to :university
   has_many :courses
+  belongs_to :university
 end

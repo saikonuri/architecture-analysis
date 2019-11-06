@@ -1,3 +1,3 @@
 class Order < ApplicationRecord
-  has_one :texbook
+  belongs_to :textbook
 end

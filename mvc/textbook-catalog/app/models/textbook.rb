@@ -1,3 +1,5 @@
 class Textbook < ApplicationRecord
-  has_and_belongs_to_many :courses
+  has_many :orders
+  has_many :courses_textbooks
+  has_many :courses, through: :courses_textbooks
 end

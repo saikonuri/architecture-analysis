@@ -14,8 +14,7 @@ class DepartmentsTest < ApplicationSystemTestCase
     visit departments_url
     click_on "New Department"
 
-    fill_in "Index", with: @department.index
-    fill_in "Show", with: @department.show
+    fill_in "Name", with: @department.name
     click_on "Create Department"
 
     assert_text "Department was successfully created"
@@ -26,8 +25,7 @@ class DepartmentsTest < ApplicationSystemTestCase
     visit departments_url
     click_on "Edit", match: :first
 
-    fill_in "Index", with: @department.index
-    fill_in "Show", with: @department.show
+    fill_in "Name", with: @department.name
     click_on "Update Department"
 
     assert_text "Department was successfully updated"
