@@ -14,3 +14,7 @@ Microservice
 
 ## Load Testing
 JMeter
+
+## Sources
+
+Textbook Data Retrieved From: https://uvabookstores.com/uvatext/site_textbooklist.asp
