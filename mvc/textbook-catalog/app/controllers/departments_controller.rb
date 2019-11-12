@@ -24,7 +24,9 @@ class DepartmentsController < ApplicationController
   # POST /departments
   # POST /departments.json
   def create
-    @department = Department.new(department_params)
+    @university = University.find_by(name: department_params[:university])
+    @department = Department.new(name: department_params[:name], university: @university)
+
 
     respond_to do |format|
       if @department.save
@@ -40,8 +42,9 @@ class DepartmentsController < ApplicationController
   # PATCH/PUT /departments/1
   # PATCH/PUT /departments/1.json
   def update
+    @university = University.find_by(name: department_params[:university])
     respond_to do |format|
-      if @department.update(department_params)
+      if @department.update(name: department_params[:name], university: @university)
         format.html { redirect_to @department, notice: 'Department was successfully updated.' }
         format.json { render :show, status: :ok, location: @department }
       else
@@ -69,6 +72,6 @@ class DepartmentsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def department_params
-      params.require(:department).permit(:name)
+      params.require(:department).permit(:name, :university)
     end
 end
