@@ -4,12 +4,21 @@ class UniversitiesController < ApplicationController
   # GET /universities
   # GET /universities.json
   def index
-    @universities = University.all
+    if params[:search]
+      @universities = University.search(params[:search]).order(:name)
+    else
+      @universities = University.all.order(:name)
+    end
   end
 
   # GET /universities/1
   # GET /universities/1.json
   def show
+    if params[:search]
+      @departments = @university.departments.search(params[:search])
+    else
+      @departments = @university.departments.all
+    end
   end
 
   # GET /universities/new

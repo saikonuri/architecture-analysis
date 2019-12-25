@@ -1,8 +1,19 @@
 <p id="notice"><%= notice %></p>
 
 <h1>Universities</h1>
+<br/>
 
-<table>
+<%= form_tag(universities_path, :method => "get", id: "search-form") do %>
+  <div class="form-group">
+  <%= text_field_tag :search, params[:search], placeholder: "Search ", class: "form-control" %>
+  <br/>
+  <%= submit_tag "Search", class: "btn btn-primary" %>
+  </div>
+<% end %>
+
+<br/>
+
+<table align="center">
   <thead>
     <tr>
       <th>Name</th>
@@ -16,9 +27,11 @@
       <tr>
         <td><%= university.name %></td>
         <td><%= university.location %></td>
-        <td><%= link_to 'Show', university %></td>
+        <td><%= link_to 'Details', university %></td>
+        <% if false %>
         <td><%= link_to 'Edit', edit_university_path(university) %></td>
         <td><%= link_to 'Destroy', university, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <% end %>
       </tr>
     <% end %>
   </tbody>

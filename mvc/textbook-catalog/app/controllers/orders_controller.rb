@@ -14,7 +14,9 @@ class OrdersController < ApplicationController
 
   # GET /orders/new
   def new
+    @textbook_id = params[:textbook_id]
     @order = Order.new
+    @order.textbook_id = @textbook_id
   end
 
   # GET /orders/1/edit
@@ -69,6 +71,6 @@ class OrdersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def order_params
-      params.require(:order).permit(:email)
+      params.require(:order).permit(:email, :textbook_id)
     end
 end

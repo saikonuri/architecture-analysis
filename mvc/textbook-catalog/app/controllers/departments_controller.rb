@@ -10,6 +10,11 @@ class DepartmentsController < ApplicationController
   # GET /departments/1
   # GET /departments/1.json
   def show
+    if params[:search]
+      @courses = @department.courses.search(params[:search])
+    else
+      @courses = @department.courses.all
+    end
   end
 
   # GET /departments/new
