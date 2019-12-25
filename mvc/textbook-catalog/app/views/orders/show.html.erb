@@ -1,9 +1,18 @@
 <p id="notice"><%= notice %></p>
-
+<h2> Order Details </h2>
 <p>
   <strong>Email:</strong>
   <%= @order.email %>
 </p>
 
-<%= link_to 'Edit', edit_order_path(@order) %> |
-<%= link_to 'Back', orders_path %>
+<p>
+  <strong>Texbook:</strong>
+  <%= @order.textbook.name %>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @order.textbook.author %>
+</p>
+
+
