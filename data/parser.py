@@ -52,7 +52,10 @@ with open(universities_path) as csvfile:
 
 def load_textbooks(data):
   # Todo
+  counter = 0
   for textbook in data:
+    counter += 1
+    print(str(counter) + " out of " + str(len(data)))
     department = textbook[0]
     course = textbook[1]
     textbook_name = textbook[2]
@@ -67,7 +70,7 @@ def load_textbooks(data):
     textbook_id = c.lastrowid
 
     # Add textbook to every university
-    for univ in c.execute('SELECT * FROM universities'):
+    for univ in c.execute('SELECT * FROM universities').fetchall():
       univ_id = univ[0]
 
       # Do we need to add department?

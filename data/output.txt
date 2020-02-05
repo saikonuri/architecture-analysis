@@ -1,5 +1,0 @@
-Enter architecture to load data into (event-driven, layered, microservice, or mvc): 
-
-
-
-
