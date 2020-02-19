@@ -15,6 +15,9 @@ class University(BaseModel):
     name = CharField(null=True)
     updated_at = DateTimeField()
 
+    def exclude(self):
+      return ['updated_at', 'created_at']
+
     class Meta:
         table_name = 'universities'
 
