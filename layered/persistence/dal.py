@@ -7,6 +7,8 @@ from datetime import date, datetime
 
 app = Flask(__name__)
 
+print(database)
+
 @app.before_request
 def before_request():
     database.connect()
@@ -97,18 +99,16 @@ def order(id):
 @app.route("/order/new", methods=['POST'])
 def new_order():
   data = request.get_json()
-  textbook = Textbook.select().where(Textbook.id == data.textbook)
-  query = Order.new(email = data.email, textbook = textbook, created_at = datetime.now(), updated_at = datetime.now())
-  query.execute()
-  return "200"
+  textbook = Textbook.select().where(Textbook.id == data['textbook'])
+  query = Order.insert(email = data['email'], textbook = textbook, created_at = datetime.now(), updated_at = datetime.now())
+  id = query.execute()
+  return json.dumps({'id': id}, default=json_serial)
 
 @app.route("/order/delete/<string:id>", methods=['DELETE'])
 def delete_order(id):
-  order = Order.select().where(Order.id == id)
-  if (order != None):
-    order.delete_instance()
-    return "200"
-  return "404"
+  q = Order.delete().where(Order.id == id)
+  q.execute()
+  return "200"
 
 @app.route("/order/edit/<string:id>", methods=['PUT'])
 def edit_order(id):

@@ -1,0 +1,33 @@
+
+.Page {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.SearchGroup {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+table {
+  table-layout: auto;
+  text-align: center;
+}
+
+.table-container {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.table-container-deps {
+  text-align: center;
+  margin: auto;
+}
+
+.input-info {
+  margin-left: 30%;
+  margin-right: 30%;
+}
