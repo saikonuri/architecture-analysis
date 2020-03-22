@@ -1,0 +1,25 @@
+version: "3.7"
+services:
+  persistence:
+    build: ./persistence
+    container_name: flask-app
+    ports:
+      - "5005:5000"
+  business:
+    build: ./business
+    container_name: express-server
+    ports:
+      - "5004:5000"
+    links:
+      - "persistence"
+  presentation:
+    container_name: react-app
+    build: ./presentation/textbook-catalog
+    volumes:
+      - './presentation/textbook-catalog:/usr/src/app'
+    ports:
+      - '5003:3000'
+    environment:
+      - NODE_ENV=development
+    links:
+      - "business"
