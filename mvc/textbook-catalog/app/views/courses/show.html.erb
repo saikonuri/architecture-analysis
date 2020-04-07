@@ -33,7 +33,7 @@
       <tr>
         <td><%= textbook.name %></td>
         <td><%= textbook.author %></td>
-        <td><%= link_to 'Details', textbook %></td>
+        <td><%= link_to 'Details', textbook, id: textbook.id %></td>
         <% if false %>
         <td><%= link_to 'Edit', edit_textbook_path(textbook) %></td>
         <td><%= link_to 'Destroy', textbooks, method: :delete, data: { confirm: 'Are you sure?' } %></td>

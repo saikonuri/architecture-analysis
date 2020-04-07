@@ -4,10 +4,10 @@
 <br/>
 
 <%= form_tag(universities_path, :method => "get", id: "search-form") do %>
-  <div class="form-group">
+  <div class="form-group", id="search-bar">
   <%= text_field_tag :search, params[:search], placeholder: "Search ", class: "form-control" %>
   <br/>
-  <%= submit_tag "Search", class: "btn btn-primary" %>
+  <%= submit_tag "Search", class: "btn btn-primary", id: "search-button" %>
   </div>
 <% end %>
 
@@ -27,7 +27,7 @@
       <tr>
         <td><%= university.name %></td>
         <td><%= university.location %></td>
-        <td><%= link_to 'Details', university %></td>
+        <td><%= link_to 'Details', university, id: university.id %></td>
         <% if false %>
         <td><%= link_to 'Edit', edit_university_path(university) %></td>
         <td><%= link_to 'Destroy', university, method: :delete, data: { confirm: 'Are you sure?' } %></td>
