@@ -86,7 +86,9 @@ class UniversityPage extends React.Component {
                   <tr key={i}>
                     <td>Department Name</td>
                     <td>{d.abbreviation}</td>
-                    <Link to={{
+                    <Link
+                    id={d.abbreviation}
+                    to={{
                     pathname: `/departments/${d.id}`,
                     state: this.state.university.name
                     }}>

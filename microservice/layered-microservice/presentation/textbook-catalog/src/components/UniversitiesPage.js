@@ -86,10 +86,11 @@ class UniversitiesPage extends React.Component {
                 placeholder="Search..."
                 aria-label="Search"
                 ref={this.textInput}
+                id="search"
               />
             </InputGroup>
             <br />
-            <Button variant="primary" onClick={() => this.onSearch()}>Search</Button>
+            <Button id= "search-button" variant="primary" onClick={() => this.onSearch()}>Search</Button>
           </div>
           <br />
           <div class="table-container">
@@ -106,7 +107,7 @@ class UniversitiesPage extends React.Component {
                   <tr key={i}>
                     <td>{u.name}</td>
                     <td>{u.location}</td>
-                    <Link to={`/universities/${u.id}`}>Details</Link>
+                    <Link id= {u.id} to={`/universities/${u.id}`}>Details</Link>
                   </tr>
                 )}
               </tbody>

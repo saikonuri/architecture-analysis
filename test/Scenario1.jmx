@@ -90,7 +90,7 @@ WDS.sampleResult.sampleEnd();
 
 
 </stringProp>
-          <stringProp name="WebDriverSampler.parameters">3000</stringProp>
+          <stringProp name="WebDriverSampler.parameters">5003</stringProp>
           <stringProp name="WebDriverSampler.language">javascript</stringProp>
         </com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler>
         <hashTree/>
