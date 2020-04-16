@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jmeterTestPlan version="1.2" properties="5.0" jmeter="5.2.1">
   <hashTree>
-    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Scenario 2" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
       <boolProp name="TestPlan.functional_mode">false</boolProp>
       <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
@@ -18,7 +18,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">25</stringProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
@@ -86,11 +86,21 @@ wait.until(conditions.presenceOfElementLocated(pkg.By.id(&apos;33771&apos;)));
 var textbookLink = WDS.browser.findElement(pkg.By.id(&quot;33771&quot;));
 textbookLink.click();
 
+/* Textbook Page */
+wait.until(conditions.presenceOfElementLocated(pkg.By.id(&apos;order-button&apos;)));
+var orderLink = WDS.browser.findElement(pkg.By.id(&quot;order-button&quot;));
+orderLink.click();
+
+/* Order Textbook */
+wait.until(conditions.presenceOfElementLocated(pkg.By.id(&apos;order_email&apos;)));
+var email = WDS.browser.findElement(pkg.By.id(&quot;order_email&quot;));
+email.sendKeys([&apos;dummy@email.com&apos;]);
+var createOrder = WDS.browser.findElement(pkg.By.id(&quot;order_create&quot;));
+createOrder.click();
+
 WDS.sampleResult.sampleEnd();
-
-
 </stringProp>
-          <stringProp name="WebDriverSampler.parameters">5003</stringProp>
+          <stringProp name="WebDriverSampler.parameters">5002</stringProp>
           <stringProp name="WebDriverSampler.language">javascript</stringProp>
         </com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler>
         <hashTree/>
@@ -128,7 +138,7 @@ WDS.sampleResult.sampleEnd();
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">/Users/sai/Fourth_Year/Fall/Capstone/Technical/architecture-analysis/test/Micro_1_ThreadsMultiple.csv</stringProp>
+          <stringProp name="filename"></stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>
