@@ -11,7 +11,7 @@ import {
   withRouter
 } from "react-router-dom";
 
-let BASEURL = 'http://business:5001/';
+let BASEURL = 'http://localhost:5004/';
 
 class DepartmentPage extends React.Component {
   constructor(props) {
@@ -85,7 +85,7 @@ class DepartmentPage extends React.Component {
                   <tr key={i}>
                     <td>Course Name Not Found</td>
                     <td>{c.mnemonic}</td>
-                    <Link to={`/courses/${c.id}`}>Details</Link>
+                    <Link id={c.mnemonic} to={`/courses/${c.id}`}>Details</Link>
                   </tr>
                 )}
               </tbody>

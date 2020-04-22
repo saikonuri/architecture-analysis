@@ -18,7 +18,7 @@ services:
     volumes:
       - './presentation/textbook-catalog:/usr/src/app'
     ports:
-      - '5003:3000'
+      - '5003:5002'
     environment:
       - NODE_ENV=development
     links:

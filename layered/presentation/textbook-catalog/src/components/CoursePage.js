@@ -86,7 +86,9 @@ class CoursePage extends React.Component {
                   <tr key={i}>
                     <td>{t.name}</td>
                     <td>{t.author}</td>
-                    <Link to={{
+                    <Link
+                    id={t.id}
+                    to={{
                     pathname: `/textbooks/${t.id}`
                     }}>
                       Details

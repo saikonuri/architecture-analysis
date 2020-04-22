@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  jmeter:
+    build: "egaillardon/jmeter"
+    volumes:
+      - './test:/jmeter'
+    command: JVM_ARGS="-Xms1024m -Xmx1024m" jmeter
+

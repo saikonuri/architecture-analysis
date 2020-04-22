@@ -81,7 +81,7 @@ class TextbookPage extends React.Component {
               pathname: `/textbook/order`,
               state: this.state.textbook
             }}>
-              <Button variant="primary">Order</Button>
+              <Button id= "order-button" variant="primary">Order</Button>
             </Link>
           </div>
           </div>

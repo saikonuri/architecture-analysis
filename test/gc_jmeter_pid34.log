@@ -1,0 +1,71 @@
+OpenJDK 64-Bit Server VM (25.212-b04) for linux-amd64 JRE (1.8.0_212-b04), built on May  4 2019 17:56:12 by "buildozer" with gcc 8.3.0
+Memory: 4k page, physical 2046268k(649448k free), swap 1048572k(619648k free)
+CommandLine flags: -XX:CompressedClassSpaceSize=260046848 -XX:G1ReservePercent=20 -XX:+HeapDumpOnOutOfMemoryError -XX:InitialHeapSize=1073741824 -XX:MaxGCPauseMillis=100 -XX:MaxHeapSize=1073741824 -XX:MaxMetaspaceSize=268435456 -XX:+PrintAdaptiveSizePolicy -XX:+PrintGC -XX:+PrintGCApplicationConcurrentTime -XX:+PrintGCApplicationStoppedTime -XX:+PrintGCCause -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+PrintHeapAtGC -XX:+PrintTenuringDistribution -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseG1GC 
+ 0.016: [G1Ergonomics (Heap Sizing) expand the heap, requested expansion amount: 1073741824 bytes, attempted expansion amount: 1073741824 bytes]
+2020-04-07T01:13:14.233+0000: 0.372: Application time: 0.2369374 seconds
+2020-04-07T01:13:14.235+0000: 0.373: Total time for which application threads were stopped: 0.0002006 seconds, Stopping threads took: 0.0000898 seconds
+2020-04-07T01:13:14.252+0000: 0.391: Application time: 0.0174629 seconds
+2020-04-07T01:13:14.252+0000: 0.391: Total time for which application threads were stopped: 0.0001522 seconds, Stopping threads took: 0.0000856 seconds
+2020-04-07T01:13:14.361+0000: 0.500: Application time: 0.1090707 seconds
+2020-04-07T01:13:14.362+0000: 0.500: Total time for which application threads were stopped: 0.0004697 seconds, Stopping threads took: 0.0003113 seconds
+2020-04-07T01:13:14.663+0000: 0.802: Application time: 0.3016145 seconds
+2020-04-07T01:13:14.664+0000: 0.802: Total time for which application threads were stopped: 0.0002381 seconds, Stopping threads took: 0.0000917 seconds
+2020-04-07T01:13:15.028+0000: 1.167: Application time: 0.3644625 seconds
+{Heap before GC invocations=0 (full 0):
+ garbage-first heap   total 1048576K, used 52224K [0x00000000c0000000, 0x00000000c0102000, 0x0000000100000000)
+  region size 1024K, 51 young (52224K), 0 survivors (0K)
+ Metaspace       used 13465K, capacity 13700K, committed 13952K, reserved 1060864K
+  class space    used 1537K, capacity 1634K, committed 1664K, reserved 1048576K
+2020-04-07T01:13:15.029+0000: 1.168: [GC pause (G1 Evacuation Pause) (young)
+Desired survivor size 3670016 bytes, new threshold 15 (max 15)
+ 1.168: [G1Ergonomics (CSet Construction) start choosing CSet, _pending_cards: 0, predicted base time: 10.00 ms, remaining time: 90.00 ms, target pause time: 100.00 ms]
+ 1.168: [G1Ergonomics (CSet Construction) add young regions to CSet, eden: 51 regions, survivors: 0 regions, predicted young region time: 780.27 ms]
+ 1.168: [G1Ergonomics (CSet Construction) finish choosing CSet, eden: 51 regions, survivors: 0 regions, old: 0 regions, predicted pause time: 790.27 ms, target pause time: 100.00 ms]
+, 0.0193561 secs]
+   [Parallel Time: 9.7 ms, GC Workers: 8]
+      [GC Worker Start (ms): Min: 1168.1, Avg: 1171.5, Max: 1175.2, Diff: 7.2]
+      [Ext Root Scanning (ms): Min: 0.1, Avg: 1.3, Max: 9.0, Diff: 9.0, Sum: 10.6]
+      [Update RS (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.0]
+         [Processed Buffers: Min: 0, Avg: 0.0, Max: 0, Diff: 0, Sum: 0]
+      [Scan RS (ms): Min: 0.0, Avg: 0.0, Max: 0.1, Diff: 0.1, Sum: 0.3]
+      [Code Root Scanning (ms): Min: 0.0, Avg: 0.1, Max: 0.3, Diff: 0.3, Sum: 0.6]
+      [Object Copy (ms): Min: 0.0, Avg: 1.1, Max: 3.0, Diff: 3.0, Sum: 8.9]
+      [Termination (ms): Min: 0.0, Avg: 3.2, Max: 4.6, Diff: 4.6, Sum: 25.5]
+         [Termination Attempts: Min: 1, Avg: 8.5, Max: 23, Diff: 22, Sum: 68]
+      [GC Worker Other (ms): Min: 0.0, Avg: 0.1, Max: 0.1, Diff: 0.0, Sum: 0.5]
+      [GC Worker Total (ms): Min: 2.1, Avg: 5.8, Max: 9.1, Diff: 7.0, Sum: 46.3]
+      [GC Worker End (ms): Min: 1177.2, Avg: 1177.3, Max: 1177.4, Diff: 0.2]
+   [Code Root Fixup: 0.1 ms]
+   [Code Root Purge: 0.0 ms]
+   [Clear CT: 0.7 ms]
+   [Other: 8.8 ms]
+      [Choose CSet: 0.0 ms]
+      [Ref Proc: 7.5 ms]
+      [Ref Enq: 0.0 ms]
+      [Redirty Cards: 0.9 ms]
+      [Humongous Register: 0.0 ms]
+      [Humongous Reclaim: 0.0 ms]
+      [Free CSet: 0.1 ms]
+   [Eden: 51.0M(51.0M)->0.0B(44.0M) Survivors: 0.0B->7168.0K Heap: 51.0M(1024.0M)->6897.9K(1024.0M)]
+Heap after GC invocations=1 (full 0):
+ garbage-first heap   total 1048576K, used 6897K [0x00000000c0000000, 0x00000000c0102000, 0x0000000100000000)
+  region size 1024K, 7 young (7168K), 7 survivors (7168K)
+ Metaspace       used 13465K, capacity 13700K, committed 13952K, reserved 1060864K
+  class space    used 1537K, capacity 1634K, committed 1664K, reserved 1048576K
+}
+ [Times: user=0.04 sys=0.00, real=0.02 secs] 
+2020-04-07T01:13:15.052+0000: 1.191: Total time for which application threads were stopped: 0.0238565 seconds, Stopping threads took: 0.0002364 seconds
+2020-04-07T01:13:15.227+0000: 1.365: Application time: 0.1749123 seconds
+2020-04-07T01:13:15.227+0000: 1.366: Total time for which application threads were stopped: 0.0003874 seconds, Stopping threads took: 0.0001438 seconds
+2020-04-07T01:13:15.232+0000: 1.371: Application time: 0.0051622 seconds
+2020-04-07T01:13:15.233+0000: 1.371: Total time for which application threads were stopped: 0.0002895 seconds, Stopping threads took: 0.0001164 seconds
+2020-04-07T01:13:15.255+0000: 1.393: Application time: 0.0221368 seconds
+2020-04-07T01:13:15.255+0000: 1.394: Total time for which application threads were stopped: 0.0004090 seconds, Stopping threads took: 0.0001856 seconds
+2020-04-07T01:13:15.310+0000: 1.449: Application time: 0.0547269 seconds
+2020-04-07T01:13:15.311+0000: 1.449: Total time for which application threads were stopped: 0.0008440 seconds, Stopping threads took: 0.0004723 seconds
+Heap
+ garbage-first heap   total 1048576K, used 37617K [0x00000000c0000000, 0x00000000c0102000, 0x0000000100000000)
+  region size 1024K, 38 young (38912K), 7 survivors (7168K)
+ Metaspace       used 17653K, capacity 17912K, committed 18304K, reserved 1064960K
+  class space    used 1976K, capacity 2056K, committed 2176K, reserved 1048576K
+2020-04-07T01:13:15.536+0000: 1.674: Application time: 0.2241722 seconds

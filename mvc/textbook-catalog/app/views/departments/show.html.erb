@@ -31,7 +31,7 @@
       <tr>
         <td>Course Name Not Found</td>
         <td><%= course.mnemonic %></td>
-        <td><%= link_to 'Details', course %></td>
+        <td><%= link_to 'Details', course , id: course.mnemonic %></td>
         <% if false %>
         <td><%= link_to 'Edit', edit_course_path(course) %></td>
         <td><%= link_to 'Destroy', courses, method: :delete, data: { confirm: 'Are you sure?' } %></td>

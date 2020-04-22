@@ -12,7 +12,7 @@ import {
   Redirect
 } from "react-router-dom";
 
-let BASEURL = 'http://business:5001/';
+let BASEURL = 'http://localhost:5004/';
 
 class TextbookForm extends React.Component {
   constructor(props) {
@@ -69,6 +69,7 @@ class TextbookForm extends React.Component {
             <InputGroup className="sm-3">
               <FormControl
                 aria-label="Email"
+                id = "order_email"
                 ref={this.emailInput}
               />
             </InputGroup>
@@ -84,7 +85,7 @@ class TextbookForm extends React.Component {
           </div>
           <br />
           <div>
-            <Button variant="primary" onClick={() => this.onSubmit()}>Create Order</Button>
+            <Button id="order_create" variant="primary" onClick={() => this.onSubmit()}>Create Order</Button>
           </div>
         </div>
       );
