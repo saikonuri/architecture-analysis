@@ -1,0 +1,38 @@
+<p id="notice"><%= notice %></p>
+
+<h2>Textbook Details</h2>
+<br/>
+
+<p>
+  <strong>Name:</strong>
+  <br/>
+  <%= @textbook.name %>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <br/>
+  <%= @textbook.author %>
+</p>
+
+<p>
+  <strong>Price (new):</strong>
+  <br/>
+  <%= @textbook.new %>
+</p>
+
+<p>
+  <strong>Price (used):</strong>
+  <br/>
+  <%= @textbook.used %>
+</p>
+
+<br/>
+<div class = "button">
+<%= link_to 'Order', new_order_path(:textbook_id => @textbook.id), :class => "btn btn-primary", :id => "order-button" %>
+</div>
+
+<% if false %>
+<%= link_to 'Edit', edit_textbook_path(@textbook) %> |
+<%= link_to 'Back', textbooks_path %>
+<% end %>
