@@ -1,6 +1,6 @@
 from peewee import *
 
-database = SqliteDatabase('../database/development_write.sqlite3')
+database = SqliteDatabase('./development_write.sqlite3')
 
 class UnknownField(object):
     def __init__(self, *_, **__): pass
@@ -69,4 +69,3 @@ class Order(BaseModel):
 
     class Meta:
         table_name = 'orders'
-

@@ -4,6 +4,7 @@ from flask import request
 from playhouse.shortcuts import model_to_dict, dict_to_model
 import json
 from datetime import date, datetime
+import requests
 
 app = Flask(__name__)
 
@@ -100,6 +101,7 @@ def new_order():
   textbook = Textbook.select().where(Textbook.id == data['textbook'])
   query = Order.insert(email = data['email'], textbook = textbook, created_at = datetime.now(), updated_at = datetime.now())
   id = query.execute()
+  requests.post("http://127.0.0.1:4000/publishevent", json = data)
   return json.dumps({'id': id}, default=json_serial)
 
 @app.route("/order/delete/<string:id>", methods=['DELETE'])
@@ -118,8 +120,3 @@ def edit_order(id):
 
 if __name__ == "__main__":
   app.run()
-
-
-
-
-

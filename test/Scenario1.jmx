@@ -90,7 +90,7 @@ WDS.sampleResult.sampleEnd();
 
 
 </stringProp>
-          <stringProp name="WebDriverSampler.parameters">5003</stringProp>
+          <stringProp name="WebDriverSampler.parameters">5002</stringProp>
           <stringProp name="WebDriverSampler.language">javascript</stringProp>
         </com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler>
         <hashTree/>
@@ -128,7 +128,7 @@ WDS.sampleResult.sampleEnd();
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">/Users/sai/Fourth_Year/Fall/Capstone/Technical/architecture-analysis/test/Micro_1_ThreadsMultiple.csv</stringProp>
+          <stringProp name="filename">/Users/vinny/Documents/2020SpringSem/architecture-analysis/test/cqrs_1_threadsMultiple.csv</stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>

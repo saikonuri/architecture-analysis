@@ -94,30 +94,30 @@ def order(id):
   order = Order.select().where(Order.id == id)
   return json.dumps(get_dicts(order), default=json_serial)
 
-@app.route("/order/new", methods=['POST'])
-def new_order():
-  data = request.get_json()
-  textbook = Textbook.select().where(Textbook.id == data['textbook'])
-  query = Order.insert(email = data['email'], textbook = textbook, created_at = datetime.now(), updated_at = datetime.now())
-  id = query.execute()
-  return json.dumps({'id': id}, default=json_serial)
+# @app.route("/order/new", methods=['POST'])
+# def new_order():
+#   data = request.get_json()
+#   textbook = Textbook.select().where(Textbook.id == data['textbook'])
+#   query = Order.insert(email = data['email'], textbook = textbook, created_at = datetime.now(), updated_at = datetime.now())
+#   id = query.execute()
+#   return json.dumps({'id': id}, default=json_serial)
 
-@app.route("/order/delete/<string:id>", methods=['DELETE'])
-def delete_order(id):
-  q = Order.delete().where(Order.id == id)
-  q.execute()
-  return "200"
+# @app.route("/order/delete/<string:id>", methods=['DELETE'])
+# def delete_order(id):
+#   q = Order.delete().where(Order.id == id)
+#   q.execute()
+#   return "200"
 
-@app.route("/order/edit/<string:id>", methods=['PUT'])
-def edit_order(id):
-  data = request.get_json()
-  query = Order.update({Order.email: data.email, Order.textbook: data.textbook}).where(Order.id == id)
-  query.execute()
-  return "200"
+# @app.route("/order/edit/<string:id>", methods=['PUT'])
+# def edit_order(id):
+#   data = request.get_json()
+#   query = Order.update({Order.email: data.email, Order.textbook: data.textbook}).where(Order.id == id)
+#   query.execute()
+#   return "200"
 
 
 if __name__ == "__main__":
-  app.run()
+  app.run(host='0.0.0.0', port = 5005)
 
 
 
