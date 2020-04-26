@@ -18,7 +18,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.num_threads">25</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
@@ -49,11 +49,32 @@
         </com.googlecode.jmeter.plugins.webdriver.config.ChromeDriverConfig>
         <hashTree/>
         <com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler guiclass="com.googlecode.jmeter.plugins.webdriver.sampler.gui.WebDriverSamplerGui" testclass="com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler" testname="jp@gc - WebDriver Sampler" enabled="true">
-          <stringProp name="WebDriverSampler.script">WDS.sampleResult.sampleStart()
-WDS.browser.get(&apos;http://jmeter-plugins.org&apos;)
-WDS.sampleResult.sampleEnd()
+          <stringProp name="WebDriverSampler.script">var pkg = JavaImporter(org.openqa.selenium); //WebDriver classes
+var support_ui = JavaImporter(org.openqa.selenium.support.ui.WebDriverWait); //WebDriver classes
+var wait = new support_ui.WebDriverWait(WDS.browser, 5000);
+var conditions = org.openqa.selenium.support.ui.ExpectedConditions;
+
+WDS.sampleResult.sampleStart(); //captures sampler&apos;s start time
+WDS.sampleResult.getLatency();
+WDS.browser.get(&apos;http://localhost:&apos;+ WDS.args[0] + &apos;/textbooks/33771&apos;);
+
+/* Textbook Page */
+wait.until(conditions.presenceOfElementLocated(pkg.By.id(&apos;order-button&apos;)));
+var orderLink = WDS.browser.findElement(pkg.By.id(&quot;order-button&quot;));
+orderLink.click();
+
+/* Order Textbook */
+wait.until(conditions.presenceOfElementLocated(pkg.By.id(&apos;order_email&apos;)));
+var email = WDS.browser.findElement(pkg.By.id(&quot;order_email&quot;));
+email.sendKeys([&apos;dummy@email.com&apos;]);
+var createOrder = WDS.browser.findElement(pkg.By.id(&quot;order_create&quot;));
+createOrder.click();
+
+WDS.browser.get(&apos;http://localhost:&apos;+ WDS.args[0] + &apos;/orders&apos;);
+
+WDS.sampleResult.sampleEnd();
 </stringProp>
-          <stringProp name="WebDriverSampler.parameters"></stringProp>
+          <stringProp name="WebDriverSampler.parameters">5003</stringProp>
           <stringProp name="WebDriverSampler.language">javascript</stringProp>
         </com.googlecode.jmeter.plugins.webdriver.sampler.WebDriverSampler>
         <hashTree/>
@@ -91,7 +112,7 @@ WDS.sampleResult.sampleEnd()
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename">/Users/sai/Fourth_Year/Fall/Capstone/Technical/architecture-analysis/test/Micro_3_threadsMultiple.csv</stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>

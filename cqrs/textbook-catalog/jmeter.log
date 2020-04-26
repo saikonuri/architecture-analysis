@@ -1,0 +1,941 @@
+2020-04-26 14:13:17,429 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-04-26 14:13:17,465 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/5.2.1/libexec/bin/user.properties
+2020-04-26 14:13:17,465 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/5.2.1/libexec/bin/system.properties
+2020-04-26 14:13:17,467 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-04-26 14:13:17,467 INFO o.a.j.JMeter: Version 5.2.1
+2020-04-26 14:13:17,467 INFO o.a.j.JMeter: java.version=1.8.0_222
+2020-04-26 14:13:17,467 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2020-04-26 14:13:17,467 INFO o.a.j.JMeter: os.name=Mac OS X
+2020-04-26 14:13:17,467 INFO o.a.j.JMeter: os.arch=x86_64
+2020-04-26 14:13:17,467 INFO o.a.j.JMeter: os.version=10.15.3
+2020-04-26 14:13:17,467 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-04-26 14:13:17,467 INFO o.a.j.JMeter: java.awt.headless=null
+2020-04-26 14:13:17,467 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-04-26 14:13:17,467 INFO o.a.j.JMeter: Available Processors =16
+2020-04-26 14:13:17,472 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-04-26 14:13:17,473 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-04-26 14:13:17,473 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.2.1/libexec
+2020-04-26 14:13:17,473 INFO o.a.j.JMeter: user.dir  =/Users/sai/Fourth_Year/Fall/Capstone/Technical/architecture-analysis/cqrs/textbook-catalog
+2020-04-26 14:13:17,473 INFO o.a.j.JMeter: PWD       =/Users/sai/Fourth_Year/Fall/Capstone/Technical/architecture-analysis/cqrs/textbook-catalog
+2020-04-26 14:13:17,474 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: Sais-MacBook-Pro.local FullName: localhost
+2020-04-26 14:13:20,323 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2020-04-26 14:13:20,346 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2020-04-26 14:13:20,347 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2020-04-26 14:13:20,421 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2020-04-26 14:13:21,178 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=mac_os_x-07c76d900d8e55348937e943273e886d-gui
+2020-04-26 14:13:22,037 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=2.0, jpgc-functions=2.1, jpgc-casutg=2.9, jpgc-dummy=0.4, jpgc-ffw=2.0, jpgc-fifo=0.2, jpgc-perfmon=2.1, jpgc-plugins-manager=1.3, jpgc-webdriver=3.1, jpgc-tst=2.5, jmeter-core=5.2.1, jmeter-ftp=5.2.1, jmeter-http=5.2.1, jmeter-jdbc=5.2.1, jmeter-jms=5.2.1, jmeter-junit=5.2.1, jmeter-java=5.2.1, jmeter-ldap=5.2.1, jmeter-mail=5.2.1, jmeter-mongodb=5.2.1, jmeter-native=5.2.1, jmeter-tcp=5.2.1, jmeter-components=5.2.1, jpgc-standard=2.0]
+2020-04-26 14:13:22,039 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-plugins-manager]
+2020-04-26 14:13:23,085 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-26 14:13:23,085 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-26 14:13:23,086 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-26 14:13:23,086 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-04-26 14:13:23,086 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-04-26 14:13:23,086 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-04-26 14:13:23,322 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2020-04-26 14:13:23,322 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /usr/local/Cellar/jmeter/5.2.1/libexec/bin/proxyserver.jks
+2020-04-26 14:13:23,423 INFO o.a.j.s.FileServer: Default base='/Users/sai/Fourth_Year/Fall/Capstone/Technical/architecture-analysis/cqrs/textbook-catalog'
+2020-04-26 14:13:23,635 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-04-26 14:13:23,635 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-04-26 14:13:23,635 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-04-26 14:13:23,635 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-04-26 14:13:23,653 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2020-04-26 14:14:08,865 INFO o.a.j.g.a.Load: Loading file: /Users/sai/Fourth_Year/Fall/Capstone/Technical/architecture-analysis/test/Scenario1.jmx
+2020-04-26 14:14:08,865 INFO o.a.j.s.FileServer: Set new base='/Users/sai/Fourth_Year/Fall/Capstone/Technical/architecture-analysis/test'
+2020-04-26 14:14:09,017 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-04-26 14:14:09,023 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-04-26 14:14:09,024 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-04-26 14:14:09,026 INFO o.a.j.s.SaveService: Loading file: /Users/sai/Fourth_Year/Fall/Capstone/Technical/architecture-analysis/test/Scenario1.jmx
+2020-04-26 14:14:09,182 INFO o.a.j.s.FileServer: Set new base='/Users/sai/Fourth_Year/Fall/Capstone/Technical/architecture-analysis/test'
+2020-04-26 14:14:33,550 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-04-26 14:14:54,130 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-04-26 14:14:54,130 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-04-26 14:14:54,132 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-04-26 14:14:54,132 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-04-26 14:14:54,402 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-04-26 14:14:54,507 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-04-26 14:14:54,507 INFO o.a.j.e.StandardJMeterEngine: Starting 25 threads for group Thread Group.
+2020-04-26 14:14:54,507 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-04-26 14:14:54,507 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=25 ramp-up=1 delayedStart=false
+2020-04-26 14:14:54,513 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-04-26 14:14:54,533 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-04-26 14:14:54,533 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-04-26 14:14:54,550 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-04-26 14:14:54,593 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-04-26 14:14:54,630 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-04-26 14:14:54,669 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-04-26 14:14:54,709 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-04-26 14:14:54,749 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-04-26 14:14:54,792 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-04-26 14:14:54,829 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2020-04-26 14:14:54,868 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2020-04-26 14:14:54,913 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2020-04-26 14:14:54,948 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2020-04-26 14:14:54,988 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2020-04-26 14:14:55,030 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2020-04-26 14:14:55,068 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2020-04-26 14:14:55,107 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2020-04-26 14:14:55,148 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2020-04-26 14:14:55,192 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2020-04-26 14:14:55,230 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2020-04-26 14:14:55,268 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2020-04-26 14:14:55,308 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2020-04-26 14:14:55,348 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2020-04-26 14:14:55,389 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2020-04-26 14:14:55,431 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2020-04-26 14:14:55,472 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2020-04-26 14:15:28,450 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-25
+2020-04-26 14:15:28,451 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-25
+2020-04-26 14:15:28,558 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-15
+2020-04-26 14:15:28,558 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2020-04-26 14:15:34,108 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-21
+2020-04-26 14:15:34,109 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-21
+2020-04-26 14:15:38,050 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-17
+2020-04-26 14:15:38,051 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2020-04-26 14:15:39,667 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-22
+2020-04-26 14:15:39,668 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-22
+2020-04-26 14:15:39,787 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2020-04-26 14:15:39,788 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-04-26 14:15:40,469 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2020-04-26 14:15:40,469 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2020-04-26 14:15:40,922 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-14
+2020-04-26 14:15:40,922 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2020-04-26 14:15:41,757 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2020-04-26 14:15:41,758 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-04-26 14:15:42,362 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2020-04-26 14:15:42,363 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-04-26 14:15:42,633 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-18
+2020-04-26 14:15:42,633 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2020-04-26 14:15:42,986 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2020-04-26 14:15:42,986 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-04-26 14:15:43,450 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2020-04-26 14:15:43,450 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-04-26 14:15:43,598 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-13
+2020-04-26 14:15:43,598 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2020-04-26 14:15:44,141 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-16
+2020-04-26 14:15:44,141 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2020-04-26 14:15:44,754 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2020-04-26 14:15:44,754 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-04-26 14:15:45,012 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2020-04-26 14:15:45,012 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-04-26 14:15:45,602 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-23
+2020-04-26 14:15:45,602 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-23
+2020-04-26 14:15:45,679 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-20
+2020-04-26 14:15:45,679 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2020-04-26 14:15:45,715 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-12
+2020-04-26 14:15:45,716 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2020-04-26 14:15:45,812 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2020-04-26 14:15:45,812 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2020-04-26 14:15:45,903 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-04-26 14:15:45,904 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-04-26 14:15:45,986 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-24
+2020-04-26 14:15:45,986 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-24
+2020-04-26 14:15:46,041 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-19
+2020-04-26 14:15:46,042 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2020-04-26 14:15:46,166 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-11
+2020-04-26 14:15:46,166 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2020-04-26 14:15:46,251 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-04-26 14:15:46,252 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-04-26 14:16:11,585 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-04-26 14:16:11,586 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-04-26 14:16:11,587 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-04-26 14:16:11,810 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-04-26 14:16:11,810 INFO o.a.j.e.StandardJMeterEngine: Starting 25 threads for group Thread Group.
+2020-04-26 14:16:11,810 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-04-26 14:16:11,810 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=25 ramp-up=1 delayedStart=false
+2020-04-26 14:16:11,811 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-04-26 14:16:11,822 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-04-26 14:16:11,822 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-04-26 14:16:11,852 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-04-26 14:16:11,895 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-04-26 14:16:11,931 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-04-26 14:16:11,973 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-04-26 14:16:12,014 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-04-26 14:16:12,055 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-04-26 14:16:12,091 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-04-26 14:16:12,135 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2020-04-26 14:16:12,171 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2020-04-26 14:16:12,215 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2020-04-26 14:16:12,251 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2020-04-26 14:16:12,291 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2020-04-26 14:16:12,330 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2020-04-26 14:16:12,373 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2020-04-26 14:16:12,415 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2020-04-26 14:16:12,452 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2020-04-26 14:16:12,491 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2020-04-26 14:16:12,531 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2020-04-26 14:16:12,571 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2020-04-26 14:16:12,614 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2020-04-26 14:16:12,651 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2020-04-26 14:16:12,690 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2020-04-26 14:16:12,731 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2020-04-26 14:16:12,771 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2020-04-26 14:16:52,208 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-11
+2020-04-26 14:16:52,209 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2020-04-26 14:16:52,969 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-19
+2020-04-26 14:16:52,969 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2020-04-26 14:16:54,559 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-16
+2020-04-26 14:16:54,559 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2020-04-26 14:16:55,626 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-14
+2020-04-26 14:16:55,627 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2020-04-26 14:16:56,023 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2020-04-26 14:16:56,023 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2020-04-26 14:16:57,159 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-23
+2020-04-26 14:16:57,159 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-23
+2020-04-26 14:16:57,421 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2020-04-26 14:16:57,422 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-04-26 14:16:57,632 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-24
+2020-04-26 14:16:57,632 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-24
+2020-04-26 14:16:57,811 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-04-26 14:16:57,811 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-04-26 14:16:58,445 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-18
+2020-04-26 14:16:58,446 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2020-04-26 14:16:59,006 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-12
+2020-04-26 14:16:59,006 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2020-04-26 14:16:59,394 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2020-04-26 14:16:59,394 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2020-04-26 14:16:59,490 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-20
+2020-04-26 14:16:59,491 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2020-04-26 14:16:59,816 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2020-04-26 14:16:59,816 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-04-26 14:17:00,730 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-15
+2020-04-26 14:17:00,730 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2020-04-26 14:17:01,161 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2020-04-26 14:17:01,161 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-04-26 14:17:01,331 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-13
+2020-04-26 14:17:01,331 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2020-04-26 14:17:01,359 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-25
+2020-04-26 14:17:01,359 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-25
+2020-04-26 14:17:01,538 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-22
+2020-04-26 14:17:01,538 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-22
+2020-04-26 14:17:01,711 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2020-04-26 14:17:01,711 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-04-26 14:17:01,789 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-17
+2020-04-26 14:17:01,789 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2020-04-26 14:17:01,809 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2020-04-26 14:17:01,809 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-04-26 14:17:01,828 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2020-04-26 14:17:01,828 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-04-26 14:17:01,871 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-21
+2020-04-26 14:17:01,871 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-21
+2020-04-26 14:17:02,114 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2020-04-26 14:17:02,114 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-04-26 14:17:02,200 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-04-26 14:17:02,200 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-04-26 14:17:28,192 INFO o.a.j.g.a.Load: Loading file: /Users/sai/Fourth_Year/Fall/Capstone/Technical/architecture-analysis/test/Scenario2.jmx
+2020-04-26 14:17:28,192 INFO o.a.j.s.FileServer: Set new base='/Users/sai/Fourth_Year/Fall/Capstone/Technical/architecture-analysis/test'
+2020-04-26 14:17:28,192 INFO o.a.j.s.SaveService: Loading file: /Users/sai/Fourth_Year/Fall/Capstone/Technical/architecture-analysis/test/Scenario2.jmx
+2020-04-26 14:17:28,214 INFO o.a.j.s.FileServer: Set new base='/Users/sai/Fourth_Year/Fall/Capstone/Technical/architecture-analysis/test'
+2020-04-26 14:17:50,030 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-04-26 14:17:50,031 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-04-26 14:17:50,032 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-04-26 14:17:50,175 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-04-26 14:17:50,175 INFO o.a.j.e.StandardJMeterEngine: Starting 25 threads for group Thread Group.
+2020-04-26 14:17:50,175 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-04-26 14:17:50,175 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=25 ramp-up=1 delayedStart=false
+2020-04-26 14:17:50,176 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-04-26 14:17:50,186 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-04-26 14:17:50,186 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-04-26 14:17:50,221 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-04-26 14:17:50,259 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-04-26 14:17:50,299 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-04-26 14:17:50,336 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-04-26 14:17:50,380 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-04-26 14:17:50,457 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-04-26 14:17:50,416 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-04-26 14:17:50,500 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2020-04-26 14:17:50,537 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2020-04-26 14:17:50,580 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2020-04-26 14:17:50,616 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2020-04-26 14:17:50,656 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2020-04-26 14:17:50,701 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2020-04-26 14:17:50,737 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2020-04-26 14:17:50,782 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2020-04-26 14:17:50,816 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2020-04-26 14:17:50,855 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2020-04-26 14:17:50,936 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2020-04-26 14:17:50,909 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2020-04-26 14:17:50,980 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2020-04-26 14:17:51,018 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2020-04-26 14:17:51,055 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2020-04-26 14:17:51,099 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2020-04-26 14:17:51,139 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2020-04-26 14:18:21,464 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-04-26 14:18:21,464 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-04-26 14:18:21,718 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2020-04-26 14:18:21,718 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-04-26 14:18:21,771 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2020-04-26 14:18:21,771 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-04-26 14:18:23,506 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2020-04-26 14:18:23,507 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-04-26 14:18:27,180 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2020-04-26 14:18:27,180 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2020-04-26 14:18:31,269 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-14
+2020-04-26 14:18:31,270 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2020-04-26 14:18:32,805 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-18
+2020-04-26 14:18:32,805 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2020-04-26 14:18:32,891 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2020-04-26 14:18:32,891 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-04-26 14:18:34,291 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-12
+2020-04-26 14:18:34,291 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2020-04-26 14:18:34,496 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-13
+2020-04-26 14:18:34,496 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2020-04-26 14:18:34,605 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-23
+2020-04-26 14:18:34,605 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-23
+2020-04-26 14:18:35,473 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2020-04-26 14:18:35,473 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-04-26 14:18:35,801 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-15
+2020-04-26 14:18:35,802 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2020-04-26 14:18:36,180 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-24
+2020-04-26 14:18:36,180 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-24
+2020-04-26 14:18:36,243 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2020-04-26 14:18:36,244 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-04-26 14:18:36,338 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-25
+2020-04-26 14:18:36,338 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-25
+2020-04-26 14:18:36,817 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-11
+2020-04-26 14:18:36,817 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2020-04-26 14:18:37,162 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-16
+2020-04-26 14:18:37,162 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2020-04-26 14:18:37,316 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-19
+2020-04-26 14:18:37,316 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2020-04-26 14:18:38,025 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2020-04-26 14:18:38,025 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2020-04-26 14:18:38,044 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2020-04-26 14:18:38,044 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-04-26 14:18:38,354 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-20
+2020-04-26 14:18:38,354 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2020-04-26 14:18:38,426 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-21
+2020-04-26 14:18:38,426 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-21
+2020-04-26 14:18:38,489 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-17
+2020-04-26 14:18:38,490 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2020-04-26 14:18:38,938 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-22
+2020-04-26 14:18:38,938 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-22
+2020-04-26 14:18:39,029 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-04-26 14:18:39,029 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-04-26 14:19:48,360 INFO o.a.j.g.a.Load: Loading file: /Users/sai/Fourth_Year/Fall/Capstone/Technical/architecture-analysis/test/Scenario3.jmx
+2020-04-26 14:19:48,361 INFO o.a.j.s.FileServer: Set new base='/Users/sai/Fourth_Year/Fall/Capstone/Technical/architecture-analysis/test'
+2020-04-26 14:19:48,361 INFO o.a.j.s.SaveService: Loading file: /Users/sai/Fourth_Year/Fall/Capstone/Technical/architecture-analysis/test/Scenario3.jmx
+2020-04-26 14:19:48,387 INFO o.a.j.s.FileServer: Set new base='/Users/sai/Fourth_Year/Fall/Capstone/Technical/architecture-analysis/test'
+2020-04-26 14:28:46,168 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-04-26 14:28:46,168 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-04-26 14:28:46,169 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-04-26 14:28:46,318 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-04-26 14:28:46,318 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2020-04-26 14:28:46,318 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-04-26 14:28:46,318 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2020-04-26 14:28:46,319 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-04-26 14:28:46,319 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-04-26 14:28:46,319 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-04-26 14:28:47,970 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-04-26 14:28:47,970 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-04-26 14:28:48,050 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-04-26 14:28:48,050 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-04-26 14:29:24,877 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-04-26 14:29:24,877 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-04-26 14:29:24,878 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-04-26 14:29:25,024 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-04-26 14:29:25,024 INFO o.a.j.e.StandardJMeterEngine: Starting 25 threads for group Thread Group.
+2020-04-26 14:29:25,024 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-04-26 14:29:25,024 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=25 ramp-up=1 delayedStart=false
+2020-04-26 14:29:25,025 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-04-26 14:29:25,036 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-04-26 14:29:25,036 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-04-26 14:29:25,065 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-04-26 14:29:25,105 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-04-26 14:29:25,148 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-04-26 14:29:25,186 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-04-26 14:29:25,227 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-04-26 14:29:25,265 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-04-26 14:29:25,306 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-04-26 14:29:25,348 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2020-04-26 14:29:25,389 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2020-04-26 14:29:25,425 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2020-04-26 14:29:25,465 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2020-04-26 14:29:25,508 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2020-04-26 14:29:25,550 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2020-04-26 14:29:25,589 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2020-04-26 14:29:25,625 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2020-04-26 14:29:25,666 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2020-04-26 14:29:25,704 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2020-04-26 14:29:25,746 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2020-04-26 14:29:25,784 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2020-04-26 14:29:25,825 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2020-04-26 14:29:25,866 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2020-04-26 14:29:25,906 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2020-04-26 14:29:25,948 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2020-04-26 14:29:25,985 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2020-04-26 14:29:34,239 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2020-04-26 14:29:34,240 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-04-26 14:29:35,015 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2020-04-26 14:29:35,016 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-04-26 14:29:35,744 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2020-04-26 14:29:35,745 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-04-26 14:29:35,867 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-04-26 14:29:35,867 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-04-26 14:29:40,053 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-19
+2020-04-26 14:29:40,053 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2020-04-26 14:29:40,062 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-11
+2020-04-26 14:29:40,062 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2020-04-26 14:29:40,271 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-18
+2020-04-26 14:29:40,271 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2020-04-26 14:29:40,271 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-21
+2020-04-26 14:29:40,271 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-21
+2020-04-26 14:29:40,430 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2020-04-26 14:29:40,430 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-04-26 14:29:40,453 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-12
+2020-04-26 14:29:40,453 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2020-04-26 14:29:40,535 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-23
+2020-04-26 14:29:40,535 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-23
+2020-04-26 14:29:40,555 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-14
+2020-04-26 14:29:40,555 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2020-04-26 14:29:40,606 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2020-04-26 14:29:40,606 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-04-26 14:29:40,634 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-20
+2020-04-26 14:29:40,634 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2020-04-26 14:29:40,635 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-22
+2020-04-26 14:29:40,635 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-22
+2020-04-26 14:29:40,674 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2020-04-26 14:29:40,674 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-04-26 14:29:40,719 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-15
+2020-04-26 14:29:40,719 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2020-04-26 14:29:40,740 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2020-04-26 14:29:40,740 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2020-04-26 14:29:41,093 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-16
+2020-04-26 14:29:41,093 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2020-04-26 14:29:41,115 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2020-04-26 14:29:41,115 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-04-26 14:29:41,149 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-17
+2020-04-26 14:29:41,149 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2020-04-26 14:29:41,247 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2020-04-26 14:29:41,247 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2020-04-26 14:29:41,250 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-13
+2020-04-26 14:29:41,250 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2020-04-26 14:29:41,254 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-24
+2020-04-26 14:29:41,254 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-24
+2020-04-26 14:29:41,290 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-25
+2020-04-26 14:29:41,290 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-25
+2020-04-26 14:29:41,400 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-04-26 14:29:41,400 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-04-26 14:30:15,355 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-04-26 14:30:15,355 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-04-26 14:30:15,356 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-04-26 14:30:15,527 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-04-26 14:30:15,527 INFO o.a.j.e.StandardJMeterEngine: Starting 25 threads for group Thread Group.
+2020-04-26 14:30:15,527 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-04-26 14:30:15,527 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=25 ramp-up=1 delayedStart=false
+2020-04-26 14:30:15,528 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-04-26 14:30:15,540 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-04-26 14:30:15,540 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-04-26 14:30:15,568 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-04-26 14:30:15,609 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-04-26 14:30:15,652 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-04-26 14:30:15,689 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-04-26 14:30:15,728 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-04-26 14:30:15,770 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-04-26 14:30:15,807 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-04-26 14:30:15,849 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2020-04-26 14:30:15,888 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2020-04-26 14:30:15,930 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2020-04-26 14:30:15,968 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2020-04-26 14:30:16,010 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2020-04-26 14:30:16,051 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2020-04-26 14:30:16,093 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2020-04-26 14:30:16,130 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2020-04-26 14:30:16,170 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2020-04-26 14:30:16,209 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2020-04-26 14:30:16,250 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2020-04-26 14:30:16,288 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2020-04-26 14:30:16,328 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2020-04-26 14:30:16,372 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2020-04-26 14:30:16,408 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2020-04-26 14:30:16,448 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2020-04-26 14:30:16,488 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2020-04-26 14:30:23,762 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2020-04-26 14:30:23,762 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-04-26 14:30:25,664 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-04-26 14:30:25,665 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-04-26 14:30:25,714 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2020-04-26 14:30:25,714 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-04-26 14:30:26,149 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2020-04-26 14:30:26,149 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-04-26 14:30:27,695 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2020-04-26 14:30:27,695 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2020-04-26 14:30:27,960 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2020-04-26 14:30:27,960 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2020-04-26 14:30:28,065 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2020-04-26 14:30:28,065 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-04-26 14:30:28,068 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2020-04-26 14:30:28,069 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-04-26 14:30:28,109 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-12
+2020-04-26 14:30:28,110 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2020-04-26 14:30:28,176 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-11
+2020-04-26 14:30:28,177 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2020-04-26 14:30:28,233 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2020-04-26 14:30:28,234 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-04-26 14:30:28,884 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-17
+2020-04-26 14:30:28,884 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2020-04-26 14:30:28,935 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2020-04-26 14:30:28,935 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-04-26 14:30:28,961 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-20
+2020-04-26 14:30:28,961 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2020-04-26 14:30:28,987 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-19
+2020-04-26 14:30:28,987 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2020-04-26 14:30:31,331 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-21
+2020-04-26 14:30:31,331 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-21
+2020-04-26 14:30:31,397 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-23
+2020-04-26 14:30:31,397 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-23
+2020-04-26 14:30:31,480 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-16
+2020-04-26 14:30:31,480 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2020-04-26 14:30:31,502 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-15
+2020-04-26 14:30:31,502 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2020-04-26 14:30:31,576 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-25
+2020-04-26 14:30:31,577 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-25
+2020-04-26 14:30:31,692 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-24
+2020-04-26 14:30:31,749 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-22
+2020-04-26 14:30:31,707 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-18
+2020-04-26 14:30:31,766 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-24
+2020-04-26 14:30:31,772 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-22
+2020-04-26 14:30:31,772 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2020-04-26 14:30:31,823 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-14
+2020-04-26 14:30:31,827 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2020-04-26 14:30:32,148 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-13
+2020-04-26 14:30:32,148 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2020-04-26 14:30:32,233 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-04-26 14:30:32,233 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-04-26 14:31:08,138 INFO o.a.j.g.a.Load: Loading file: /Users/sai/Fourth_Year/Fall/Capstone/Technical/architecture-analysis/test/Scenario1.jmx
+2020-04-26 14:31:08,138 INFO o.a.j.s.FileServer: Set new base='/Users/sai/Fourth_Year/Fall/Capstone/Technical/architecture-analysis/test'
+2020-04-26 14:31:08,138 INFO o.a.j.s.SaveService: Loading file: /Users/sai/Fourth_Year/Fall/Capstone/Technical/architecture-analysis/test/Scenario1.jmx
+2020-04-26 14:31:08,156 INFO o.a.j.s.FileServer: Set new base='/Users/sai/Fourth_Year/Fall/Capstone/Technical/architecture-analysis/test'
+2020-04-26 14:31:26,263 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-04-26 14:31:26,263 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-04-26 14:31:26,264 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-04-26 14:31:26,459 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-04-26 14:31:26,459 INFO o.a.j.e.StandardJMeterEngine: Starting 25 threads for group Thread Group.
+2020-04-26 14:31:26,460 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-04-26 14:31:26,460 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=25 ramp-up=1 delayedStart=false
+2020-04-26 14:31:26,461 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-04-26 14:31:26,471 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-04-26 14:31:26,471 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-04-26 14:31:26,506 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-04-26 14:31:26,545 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-04-26 14:31:26,583 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-04-26 14:31:26,625 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-04-26 14:31:26,662 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-04-26 14:31:26,704 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-04-26 14:31:26,744 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-04-26 14:31:26,781 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2020-04-26 14:31:26,826 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2020-04-26 14:31:26,861 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2020-04-26 14:31:26,904 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2020-04-26 14:31:26,941 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2020-04-26 14:31:26,981 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2020-04-26 14:31:27,024 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2020-04-26 14:31:27,062 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2020-04-26 14:31:27,102 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2020-04-26 14:31:27,141 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2020-04-26 14:31:27,182 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2020-04-26 14:31:27,225 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2020-04-26 14:31:27,261 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2020-04-26 14:31:27,301 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2020-04-26 14:31:27,340 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2020-04-26 14:31:27,381 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2020-04-26 14:31:27,424 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2020-04-26 14:31:49,631 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-04-26 14:31:49,631 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-04-26 14:31:51,552 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2020-04-26 14:31:51,552 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-04-26 14:31:56,901 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2020-04-26 14:31:56,901 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-04-26 14:32:06,936 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-23
+2020-04-26 14:32:06,937 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-23
+2020-04-26 14:32:07,169 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-17
+2020-04-26 14:32:07,169 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2020-04-26 14:32:07,309 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-19
+2020-04-26 14:32:07,309 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2020-04-26 14:32:08,425 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-22
+2020-04-26 14:32:08,425 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-22
+2020-04-26 14:32:09,282 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-18
+2020-04-26 14:32:09,282 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2020-04-26 14:32:09,579 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2020-04-26 14:32:09,579 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-04-26 14:32:10,463 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-24
+2020-04-26 14:32:10,463 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-24
+2020-04-26 14:32:11,165 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-21
+2020-04-26 14:32:11,165 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-21
+2020-04-26 14:32:11,864 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2020-04-26 14:32:11,864 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-04-26 14:32:11,947 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-25
+2020-04-26 14:32:11,948 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-25
+2020-04-26 14:32:12,827 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-11
+2020-04-26 14:32:12,827 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2020-04-26 14:32:13,272 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2020-04-26 14:32:13,272 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-04-26 14:32:13,322 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2020-04-26 14:32:13,322 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-04-26 14:32:13,801 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-15
+2020-04-26 14:32:13,801 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2020-04-26 14:32:13,860 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-14
+2020-04-26 14:32:13,860 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2020-04-26 14:32:14,271 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-12
+2020-04-26 14:32:14,272 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2020-04-26 14:32:14,725 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2020-04-26 14:32:14,725 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2020-04-26 14:32:14,766 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-16
+2020-04-26 14:32:14,766 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2020-04-26 14:32:14,817 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-20
+2020-04-26 14:32:14,817 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2020-04-26 14:32:14,950 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-13
+2020-04-26 14:32:14,950 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2020-04-26 14:32:15,145 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2020-04-26 14:32:15,145 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-04-26 14:32:15,529 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2020-04-26 14:32:15,530 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2020-04-26 14:32:15,612 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-04-26 14:32:15,612 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-04-26 14:52:26,519 INFO o.a.j.g.a.Load: Loading file: /Users/sai/Fourth_Year/Fall/Capstone/Technical/architecture-analysis/test/Scenario3.jmx
+2020-04-26 14:52:26,519 INFO o.a.j.s.FileServer: Set new base='/Users/sai/Fourth_Year/Fall/Capstone/Technical/architecture-analysis/test'
+2020-04-26 14:52:26,519 INFO o.a.j.s.SaveService: Loading file: /Users/sai/Fourth_Year/Fall/Capstone/Technical/architecture-analysis/test/Scenario3.jmx
+2020-04-26 14:52:26,557 INFO o.a.j.s.FileServer: Set new base='/Users/sai/Fourth_Year/Fall/Capstone/Technical/architecture-analysis/test'
+2020-04-26 14:53:55,903 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-04-26 14:53:55,903 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-04-26 14:53:55,904 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-04-26 14:53:56,209 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-04-26 14:53:56,209 INFO o.a.j.e.StandardJMeterEngine: Starting 25 threads for group Thread Group.
+2020-04-26 14:53:56,210 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-04-26 14:53:56,210 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=25 ramp-up=1 delayedStart=false
+2020-04-26 14:53:56,211 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-04-26 14:53:56,219 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-04-26 14:53:56,220 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-04-26 14:53:56,251 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-04-26 14:53:56,291 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-04-26 14:53:56,330 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-04-26 14:53:56,374 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-04-26 14:53:56,414 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-04-26 14:53:56,451 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-04-26 14:53:56,494 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-04-26 14:53:56,534 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2020-04-26 14:53:56,574 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2020-04-26 14:53:56,610 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2020-04-26 14:53:56,650 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2020-04-26 14:53:56,694 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2020-04-26 14:53:56,730 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2020-04-26 14:53:56,771 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2020-04-26 14:53:56,852 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2020-04-26 14:53:56,812 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2020-04-26 14:53:56,892 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2020-04-26 14:53:56,931 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2020-04-26 14:53:56,970 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2020-04-26 14:53:57,010 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2020-04-26 14:53:57,051 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2020-04-26 14:53:57,092 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2020-04-26 14:53:57,133 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2020-04-26 14:53:57,175 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2020-04-26 14:54:04,710 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2020-04-26 14:54:04,711 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-04-26 14:54:04,728 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2020-04-26 14:54:04,728 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-04-26 14:54:04,779 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2020-04-26 14:54:04,779 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-04-26 14:54:04,868 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2020-04-26 14:54:04,868 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-04-26 14:54:05,138 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-04-26 14:54:05,138 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-04-26 14:54:05,287 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2020-04-26 14:54:05,287 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-04-26 14:54:07,845 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-21
+2020-04-26 14:54:07,845 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-21
+2020-04-26 14:54:08,094 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2020-04-26 14:54:08,094 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2020-04-26 14:54:08,120 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2020-04-26 14:54:08,120 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-13
+2020-04-26 14:54:08,120 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-04-26 14:54:08,121 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2020-04-26 14:54:08,213 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-17
+2020-04-26 14:54:08,213 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2020-04-26 14:54:08,242 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-25
+2020-04-26 14:54:08,243 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-24
+2020-04-26 14:54:08,245 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-25
+2020-04-26 14:54:08,245 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-24
+2020-04-26 14:54:08,292 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-12
+2020-04-26 14:54:08,292 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2020-04-26 14:54:08,359 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-19
+2020-04-26 14:54:08,360 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2020-04-26 14:54:08,450 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-20
+2020-04-26 14:54:08,450 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2020-04-26 14:54:08,464 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2020-04-26 14:54:08,464 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-04-26 14:54:08,588 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-23
+2020-04-26 14:54:08,588 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-23
+2020-04-26 14:54:08,615 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-16
+2020-04-26 14:54:08,615 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2020-04-26 14:54:08,637 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-15
+2020-04-26 14:54:08,637 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2020-04-26 14:54:08,710 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-18
+2020-04-26 14:54:08,710 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2020-04-26 14:54:08,758 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-14
+2020-04-26 14:54:08,758 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2020-04-26 14:54:08,806 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-22
+2020-04-26 14:54:08,807 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-22
+2020-04-26 14:54:08,861 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2020-04-26 14:54:08,871 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-11
+2020-04-26 14:54:08,877 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2020-04-26 14:54:08,877 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2020-04-26 14:54:08,969 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-04-26 14:54:08,969 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-04-26 15:05:32,498 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-04-26 15:05:32,498 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-04-26 15:05:32,499 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-04-26 15:05:32,761 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-04-26 15:05:32,761 INFO o.a.j.e.StandardJMeterEngine: Starting 25 threads for group Thread Group.
+2020-04-26 15:05:32,761 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-04-26 15:05:32,761 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=25 ramp-up=1 delayedStart=false
+2020-04-26 15:05:32,762 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-04-26 15:05:32,770 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-04-26 15:05:32,770 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-04-26 15:05:32,802 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-04-26 15:05:32,841 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-04-26 15:05:32,882 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-04-26 15:05:32,926 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-04-26 15:05:32,962 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-04-26 15:05:33,002 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-04-26 15:05:33,043 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-04-26 15:05:33,085 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2020-04-26 15:05:33,121 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2020-04-26 15:05:33,165 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2020-04-26 15:05:33,202 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2020-04-26 15:05:33,241 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2020-04-26 15:05:33,282 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2020-04-26 15:05:33,322 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2020-04-26 15:05:33,364 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2020-04-26 15:05:33,406 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2020-04-26 15:05:33,444 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2020-04-26 15:05:33,485 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2020-04-26 15:05:33,525 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2020-04-26 15:05:33,562 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2020-04-26 15:05:33,601 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2020-04-26 15:05:33,641 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2020-04-26 15:05:33,684 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2020-04-26 15:05:33,722 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2020-04-26 15:05:49,503 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2020-04-26 15:05:49,504 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-04-26 15:05:49,528 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2020-04-26 15:05:49,528 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-04-26 15:05:51,224 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2020-04-26 15:05:51,225 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-04-26 15:05:51,363 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-25
+2020-04-26 15:05:51,363 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-25
+2020-04-26 15:05:51,517 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-16
+2020-04-26 15:05:51,517 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2020-04-26 15:05:51,540 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2020-04-26 15:05:51,540 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2020-04-26 15:05:51,544 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-14
+2020-04-26 15:05:51,544 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2020-04-26 15:05:51,848 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2020-04-26 15:05:51,848 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-04-26 15:05:51,848 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-04-26 15:05:51,848 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-04-26 15:05:52,048 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2020-04-26 15:05:52,048 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-04-26 15:05:52,111 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2020-04-26 15:05:52,111 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-04-26 15:05:52,283 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-11
+2020-04-26 15:05:52,283 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2020-04-26 15:05:52,283 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-13
+2020-04-26 15:05:52,283 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2020-04-26 15:05:52,360 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-19
+2020-04-26 15:05:52,360 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2020-04-26 15:06:03,763 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-23
+2020-04-26 15:06:03,763 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-23
+2020-04-26 15:06:03,974 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-21
+2020-04-26 15:06:03,974 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-21
+2020-04-26 15:06:03,984 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-18
+2020-04-26 15:06:03,984 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2020-04-26 15:06:04,035 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-20
+2020-04-26 15:06:04,035 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2020-04-26 15:06:04,187 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-12
+2020-04-26 15:06:04,187 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2020-04-26 15:06:04,200 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-24
+2020-04-26 15:06:04,200 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-24
+2020-04-26 15:06:09,932 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-22
+2020-04-26 15:06:09,932 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-17
+2020-04-26 15:06:09,932 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-22
+2020-04-26 15:06:09,932 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2020-04-26 15:06:09,934 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-15
+2020-04-26 15:06:09,934 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2020-04-26 15:06:10,167 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2020-04-26 15:06:10,167 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2020-04-26 15:06:10,198 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2020-04-26 15:06:10,198 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-04-26 15:06:10,281 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-04-26 15:06:10,282 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-04-26 15:14:22,054 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-04-26 15:14:22,054 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-04-26 15:14:22,055 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-04-26 15:14:22,248 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-04-26 15:14:22,248 INFO o.a.j.e.StandardJMeterEngine: Starting 25 threads for group Thread Group.
+2020-04-26 15:14:22,248 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-04-26 15:14:22,248 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=25 ramp-up=1 delayedStart=false
+2020-04-26 15:14:22,248 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-04-26 15:14:22,257 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-04-26 15:14:22,257 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-04-26 15:14:22,290 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-04-26 15:14:22,332 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-04-26 15:14:22,372 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-04-26 15:14:22,413 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-04-26 15:14:22,451 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-04-26 15:14:22,488 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-04-26 15:14:22,532 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-04-26 15:14:22,574 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2020-04-26 15:14:22,609 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2020-04-26 15:14:22,650 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2020-04-26 15:14:22,693 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2020-04-26 15:14:22,737 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2020-04-26 15:14:22,769 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2020-04-26 15:14:22,809 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2020-04-26 15:14:22,848 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2020-04-26 15:14:22,889 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2020-04-26 15:14:22,930 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2020-04-26 15:14:22,969 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2020-04-26 15:14:23,009 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2020-04-26 15:14:23,048 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2020-04-26 15:14:23,091 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2020-04-26 15:14:23,129 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2020-04-26 15:14:23,168 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2020-04-26 15:14:23,208 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2020-04-26 15:14:30,342 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2020-04-26 15:14:30,343 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-04-26 15:14:30,343 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2020-04-26 15:14:30,344 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-04-26 15:14:30,468 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2020-04-26 15:14:30,469 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-04-26 15:14:30,650 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-04-26 15:14:30,651 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-04-26 15:14:30,654 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2020-04-26 15:14:30,655 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-04-26 15:14:30,898 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2020-04-26 15:14:30,898 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-04-26 15:14:32,233 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-17
+2020-04-26 15:14:32,234 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2020-04-26 15:14:32,496 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-11
+2020-04-26 15:14:32,496 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2020-04-26 15:14:32,522 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-15
+2020-04-26 15:14:32,522 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2020-04-26 15:14:33,087 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-24
+2020-04-26 15:14:33,087 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-24
+2020-04-26 15:14:33,488 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-18
+2020-04-26 15:14:33,510 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2020-04-26 15:14:33,570 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-14
+2020-04-26 15:14:33,570 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2020-04-26 15:14:33,888 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2020-04-26 15:14:33,893 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2020-04-26 15:14:34,113 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-16
+2020-04-26 15:14:34,113 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2020-04-26 15:14:34,132 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-20
+2020-04-26 15:14:34,132 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2020-04-26 15:14:34,245 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-21
+2020-04-26 15:14:34,245 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-21
+2020-04-26 15:14:34,272 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-19
+2020-04-26 15:14:34,272 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2020-04-26 15:14:34,301 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2020-04-26 15:14:34,308 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-04-26 15:14:34,301 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-13
+2020-04-26 15:14:34,327 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2020-04-26 15:14:34,397 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2020-04-26 15:14:34,398 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-04-26 15:14:34,450 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2020-04-26 15:14:34,450 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2020-04-26 15:14:34,451 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-25
+2020-04-26 15:14:34,451 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-25
+2020-04-26 15:14:34,524 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-12
+2020-04-26 15:14:34,524 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2020-04-26 15:14:34,558 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-22
+2020-04-26 15:14:34,558 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-22
+2020-04-26 15:14:34,569 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-23
+2020-04-26 15:14:34,569 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-23
+2020-04-26 15:14:34,657 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-04-26 15:14:34,657 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-04-26 15:19:05,667 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-04-26 15:19:05,667 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-04-26 15:19:05,668 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-04-26 15:19:05,936 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-04-26 15:19:05,936 INFO o.a.j.e.StandardJMeterEngine: Starting 25 threads for group Thread Group.
+2020-04-26 15:19:05,936 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-04-26 15:19:05,937 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=25 ramp-up=1 delayedStart=false
+2020-04-26 15:19:05,937 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-04-26 15:19:05,946 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-04-26 15:19:05,946 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-04-26 15:19:05,980 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-04-26 15:19:06,020 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-04-26 15:19:06,058 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-04-26 15:19:06,101 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-04-26 15:19:06,139 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-04-26 15:19:06,182 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-04-26 15:19:06,217 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-04-26 15:19:06,262 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2020-04-26 15:19:06,301 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2020-04-26 15:19:06,341 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2020-04-26 15:19:06,378 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2020-04-26 15:19:06,421 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2020-04-26 15:19:06,457 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2020-04-26 15:19:06,499 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2020-04-26 15:19:06,541 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2020-04-26 15:19:06,578 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2020-04-26 15:19:06,622 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2020-04-26 15:19:06,662 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2020-04-26 15:19:06,700 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2020-04-26 15:19:06,739 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2020-04-26 15:19:06,778 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2020-04-26 15:19:06,819 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2020-04-26 15:19:06,858 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2020-04-26 15:19:06,898 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2020-04-26 15:19:19,103 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2020-04-26 15:19:19,104 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-04-26 15:19:19,132 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2020-04-26 15:19:19,132 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-04-26 15:19:19,218 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2020-04-26 15:19:19,218 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-04-26 15:19:19,408 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2020-04-26 15:19:19,408 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-04-26 15:19:19,449 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-04-26 15:19:19,450 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-04-26 15:19:21,603 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-12
+2020-04-26 15:19:21,603 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2020-04-26 15:19:22,263 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-20
+2020-04-26 15:19:22,263 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2020-04-26 15:19:22,297 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2020-04-26 15:19:22,297 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2020-04-26 15:19:22,299 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-13
+2020-04-26 15:19:22,299 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2020-04-26 15:19:22,623 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-18
+2020-04-26 15:19:22,640 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2020-04-26 15:19:22,663 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-23
+2020-04-26 15:19:22,663 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-23
+2020-04-26 15:19:22,895 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2020-04-26 15:19:22,895 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-04-26 15:19:22,897 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-22
+2020-04-26 15:19:22,897 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-22
+2020-04-26 15:19:22,932 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2020-04-26 15:19:22,932 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2020-04-26 15:19:23,082 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-25
+2020-04-26 15:19:23,082 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-17
+2020-04-26 15:19:23,082 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-25
+2020-04-26 15:19:23,082 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2020-04-26 15:19:23,332 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-11
+2020-04-26 15:19:23,350 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2020-04-26 15:19:23,614 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-16
+2020-04-26 15:19:23,614 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2020-04-26 15:19:23,614 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-14
+2020-04-26 15:19:23,614 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2020-04-26 15:19:23,614 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2020-04-26 15:19:23,614 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-04-26 15:19:23,654 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-24
+2020-04-26 15:19:23,654 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-24
+2020-04-26 15:19:23,664 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2020-04-26 15:19:23,664 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-21
+2020-04-26 15:19:23,664 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-04-26 15:19:23,664 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-21
+2020-04-26 15:19:23,664 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-19
+2020-04-26 15:19:23,665 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2020-04-26 15:19:23,678 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-15
+2020-04-26 15:19:23,678 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2020-04-26 15:19:23,824 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-04-26 15:19:23,824 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
